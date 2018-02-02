@@ -40,7 +40,7 @@ body {
 .nav {
     list-style-type: none;
     margin: 0;
-    padding: 15px 0 0 0;
+    padding: 30px 0 0 0;
 }
 .nav li {
     float: left;
@@ -54,7 +54,7 @@ body {
     padding-right: 10px;
 }
 .nav .borderednav {
-    border-left-style: solid;
+   border-left-style: solid;
    border-right-style: solid;
    border-left-width: .5px;
    border-right-width: .5px;
@@ -80,7 +80,6 @@ body {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    border-color: pink;
 }
 #maincontent {
     float: left;
@@ -88,8 +87,9 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
+    padding-top: 6px;
     width: 610px;
-    color: #777777;
+    color:#4aaaa5;
     border:.5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -116,21 +116,36 @@ h2 {
     align-content: center;
     color: #4aaaa5;
 }
-
 #sidebar ul{
     list-style-type: none;
     margin: 0;
     /* padding: 15px 0 0 0;    */
 }
-
 #sidebar ul li{
     float: left;
 }
-
 .logos {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }  
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 footer {
 text-align:center;
 background-color: #666666;
@@ -138,4 +153,44 @@ padding:20px;
 margin-top:20px;
 color: #ffffff;
 border-top: 8px solid #4aaaa5;
+}
+.photos {
+  height: 200px;
+  width: 250px;  
+  margin: 10px 10px 20px 20px;
+  }
+#leftcol {
+    width: 300px;
+    float: left;
+}
+#rightcol {
+    width: 300px;
+    float: right;
+}
+
+.banner {
+    width:250px;
+    height: 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding-top: 10px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 150px;
+    margin-right:10px;
+    margin-left: 20px;
+    z-index: 100px;  
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: inset;
+    border-width: 2px;
+    color:gray;
 }
